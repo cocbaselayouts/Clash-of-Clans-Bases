@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clash of Clans Bases With Links - COC Bases - <script>document.write(new Date().getFullYear())</script></title>
-    <meta name="description" content="Clash of Clans Bases - New Updated COC layouts with links for all levels of Townhalls (TH) and Builder Halls (BH). Copy the best <script>document.write(new Date().getFullYear())</script> COC bases."/>
+    <title>Clash of Clans Bases With Links - COC Bases - <span id="year"></span></title>
+    <meta name="description" content="Clash of Clans Bases - New Updated COC layouts with links for all levels of Townhalls (TH) and Builder Halls (BH). Copy the best  COC bases."/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/">
     <link rel="stylesheet" href="assets/style.css">
@@ -354,9 +354,15 @@
     </section>
 
     <!-- ==================== Footer Section ==================== -->
-    <footer>
-        <p>© <script>document.write(new Date().getFullYear())</script> My Blog. All rights reserved.</p>
+     <footer>
+        
+        <p>&copy; <span id="year"></span> All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        document.title = "Clash of Clans Bases With Links - COC Bases - " + new Date().getFullYear();
+    </script>
 </body>
 
 </html>
