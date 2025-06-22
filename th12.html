@@ -6,15 +6,15 @@
     <title>TH12 Base <span id="year"></span> - Best Clash of Clans Town Hall 12 Bases</title>
     <meta name="description" content="Copy TH12 Base with Links [Updated] Clash of Clans Bases TH12 2025 - New Layouts added after Latest Update. Best COC Town Hall 12 Bases."/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-    <link rel="canonical" href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/th12.html" >
+    <link rel="canonical" href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/th12.html">
     <link rel="stylesheet" href="assets/style.css">
     <script src="assets/script.js" defer></script>
 </head>
 <body>
     <nav class="base-nav" style="display: flex;">
-  <div style="width: 20%; padding-top: 5px;">
-    <a href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/"><img src="images/COC Bases.webp" alt="Logo" style="height: 50px;"></a>      
-</div>
+        <div style="width: 20%; padding-top: 5px;">
+            <a href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/"><img src="images/COC Bases.webp" alt="Logo" style="height: 50px;"></a>      
+        </div>
         <div class="nav-th" style="color: white; flex-grow: 1; text-align: right; padding-top: 5px;">
             <a href="th3.html">TH3</a> | 
             <a href="th4.html">TH4</a> | 
@@ -44,7 +44,6 @@
         </div>
     </nav>
 
-    <!-- ==================== Hero Section ==================== -->
     <div class="hero" style="background-image: url('images/coc bases.png');">
         <div class="hero-content">
             <h1>Clash of Clans Town Hall 12 Layouts for TH12 Base</h1>
@@ -54,7 +53,6 @@
         </div>
     </div>
 
-    <!-- ==================== Town Hall Gallery Section ==================== -->
     <section class="container" style="text-align: left; padding-bottom: 40px;">
         <h2 style="margin-top: 50px; background-color: purple; color: white; padding: 10px">About Town Hall 12</h2>
         <p>Town Hall 12, released by Supercell on June 11, 2018, is a powerhouse in Clash of Clans. It costs 8,000,000 gold to upgrade from Town Hall 11 and takes 8 days. Your village gets a striking blue and electric look with a Giga Tesla hidden inside the Town Hall, delivering multi-target shock damage. Town Hall 12 Bases unlock powerful defenses like the Siege Workshop for Siege Machines and upgraded defenses like the Eagle Artillery and Inferno Towers. You also get access to maxed heroes, including the Barbarian King and Archer Queen, and level 50 walls with segments upgradable to level 13. These defenses make layouts ideal for stopping TH12 attacks like Electro Dragon spam, Yeti smashes, or Queen Walks with Miners.</p>
@@ -114,21 +112,22 @@
         </div>
         <p>Our podcast shares tips and player tricks for building top TH12 layouts.</p>
 
-        <!-- ==================== Conclusion Section ==================== -->
         <section>
             <h2 style="margin-top: 50px; background-color: purple; color: white; padding: 10px">Conclusion</h2>
             <p>Town Hall 12 is a beast in Clash of Clans, and our <b>TH12 Bases</b> are your key to ruling the game. From war-ready designs that block three-star attacks to farming layouts that save your loot, we’ve got the best <b>TH12 COC Layouts</b> for you. With defenses like the Giga Tesla and Eagle Artillery, you can crush any TH12 attack. Copy fresh designs with links at bases-coc.com/bases/th12/ and build a village nobody can touch. Join us, grab a base, and dominate Clash of Clans!</p>
+            <p>Current Year: <span class="year"></span></p>
         </section>
     </section>
 
-    <!-- ==================== Footer Section ==================== -->
     <footer> 
-        <p>&copy; <span id="year"></span> All rights reserved.</p>
+        <p>© <span class="year"></span> All rights reserved.</p>
     </footer>
 
     <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-        document.title = "Clash of Clans Bases With Links - COC Bases - " + new Date().getFullYear();
+        document.querySelectorAll(".year").forEach(element => {
+            element.innerHTML = new Date().getFullYear();
+        });
+        document.title = "TH12 Base " + new Date().getFullYear() + " - Best Clash of Clans Town Hall 12 Bases";
     </script>
 </body>
 </html>
