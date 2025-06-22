@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TH10 Base 2025 - Best Clash of Clans Town Hall 10 Bases</title>
+    <title>TH10 Base <span id="year"></span> - Best Clash of Clans Town Hall 10 Bases</title>
     <meta name="description" content="Copy TH10 Base with Links [Updated] Clash of Clans Bases TH10 2025 - New Layouts added after Latest Update. Best COC Town Hall 10 Bases."/>
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://cocbaselayouts.github.io/Clash-of-Clans-Bases/th10.html" >
     <link rel="stylesheet" href="assets/style.css">
     <script src="assets/script.js" defer></script>
@@ -108,10 +109,14 @@
 
         </section>
     </section>
-<footer>
-        <p>© 2025. All rights reserved.</p>
+    <footer> 
+        <p>&copy; <span id="year"></span> All rights reserved.</p>
     </footer>
 
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        document.title = "Clash of Clans Bases With Links - COC Bases - " + new Date().getFullYear();
+    </script>
 </body>
 
 </html>
